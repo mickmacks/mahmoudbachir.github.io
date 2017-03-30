@@ -1,0 +1,170 @@
+/* custom styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:700,700i');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	width: 100%;
+	background-color: #edf4f4;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	font-family: 'Playfair Display', bold;
+	font-size: 2em;
+	padding-bottom: 40px;
+}
+
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+}
+
+img {
+	display: inline-block;
+
+}
+
+img:hover {
+	color: #fff;
+}
+
+input {
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-variant-ligatures: none;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #000; 
+    padding: 20px;
+}
+
+a:hover {
+    color: #00f0be;
+}
+
+button {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 8px;
+}
+
+nav {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 50px;
+}
+
+nav ul {
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+
+nav ul li:last-child {
+  padding-right: 0;
+}
+
+main {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#logo {
+	width: 60px;
+}
+
+#navLinks{
+	float: right;
+}
+
+#intro {
+}
+
+#portfolioImage {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+#portfolioHero {
+	width: 66%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlayText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.header {
+  background-color: #77ccee;
+  border-bottom: 1px solid #4267b1;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: #ddd;
+  margin-top: 20px;
+  min-height: 200px;
+  padding-top: 20px;
+}
+.content {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 20px;
+  width: 100%;
+}
+.row {
+  margin-top: 20px;
+}
+.column {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  width: 30%;
+}
+.column:last-child {
+  margin-right: 0;
+}
